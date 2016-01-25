@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		CCCF32D61C55C8BB00D46A65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF32D51C55C8BB00D46A65 /* AppDelegate.swift */; };
-		CCCF32D81C55C8BB00D46A65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF32D71C55C8BB00D46A65 /* ViewController.swift */; };
 		CCCF32DB1C55C8BB00D46A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCF32D91C55C8BB00D46A65 /* Main.storyboard */; };
 		CCCF32DD1C55C8BB00D46A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCF32DC1C55C8BB00D46A65 /* Assets.xcassets */; };
 		CCCF32E01C55C8BB00D46A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCF32DE1C55C8BB00D46A65 /* LaunchScreen.storyboard */; };
+		CCCF32E81C55C8F900D46A65 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF32E71C55C8F900D46A65 /* MoviesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CCCF32D21C55C8BB00D46A65 /* MovieViewer1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieViewer1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCF32D51C55C8BB00D46A65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCCF32D71C55C8BB00D46A65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCCF32DA1C55C8BB00D46A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCCF32DC1C55C8BB00D46A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCCF32DF1C55C8BB00D46A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCCF32E11C55C8BB00D46A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCF32E71C55C8F900D46A65 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				CCCF32D51C55C8BB00D46A65 /* AppDelegate.swift */,
-				CCCF32D71C55C8BB00D46A65 /* ViewController.swift */,
 				CCCF32D91C55C8BB00D46A65 /* Main.storyboard */,
 				CCCF32DC1C55C8BB00D46A65 /* Assets.xcassets */,
 				CCCF32DE1C55C8BB00D46A65 /* LaunchScreen.storyboard */,
 				CCCF32E11C55C8BB00D46A65 /* Info.plist */,
+				CCCF32E71C55C8F900D46A65 /* MoviesViewController.swift */,
 			);
 			path = MovieViewer1;
 			sourceTree = "<group>";
@@ -136,8 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCCF32D81C55C8BB00D46A65 /* ViewController.swift in Sources */,
 				CCCF32D61C55C8BB00D46A65 /* AppDelegate.swift in Sources */,
+				CCCF32E81C55C8F900D46A65 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

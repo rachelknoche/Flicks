@@ -77,38 +77,15 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let movie = movies![indexPath.row]
         let title = movie["title"] as! String
         let overview = movie["overview"] as! String
-        let posterPath = movie["poster_path"] as! String
-        
-        if let posterPath = movie["poster_path"] as? String {
-            let posterBaseUrl = "http://image.tmdb.org/t/p/w500"
-            let posterUrl = NSURL(string: posterBaseUrl + posterPath)
-            cell.posterView.setImageWithURL(posterUrl!)
-        }
-        else {
-            // No poster image. Can either set to nil (no image) or a default movie poster image
-            // that you include as an asset
-            cell.posterView.image = nil
-        }
-        
-        let baseUrl = "http://image.tmdb.org/t/p/w500/"
-        
-        let imageUrl = NSURL(string: baseUrl + posterPath)
-        
- 
-        
-        
-        
-        cell.posterView.setImageWithURL(imageUrl!)
         cell.titleLabel.text = title
         cell.overviewLabel.text = overview
         
+        let baseUrl = "http://image.tmdb.org/t/p/w500/"
         
-        
-        
-        
-        
-
-        print("row\(indexPath.row)")
+        if let posterPath = movie["poster_path"] as? String {
+            let posterUrl = NSURL(string: baseUrl + posterPath)
+            cell.posterView.setImageWithURL(posterUrl!)
+        }
         return cell
     }
     func loadDataFromNetwork() {
@@ -170,14 +147,25 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         });
         task.resume()
     }
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let cell = sender as!  UITableViewCell
+        let indexPath =  tableView.indexPathForCell(cell)
+        let movie = movies![indexPath!.row]
+        
+        
+        let detailViewConroller = segue.destinationViewController as! DetailViewController
+        detailViewConroller.movie = movie
+        
+        
+        
+        print("prepare for segue called")
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
+    
 
 }

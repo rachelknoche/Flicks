@@ -16,7 +16,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     
     
     var movies:[NSDictionary]?
-
+    var endpoint: String!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -47,7 +47,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
                         data, options:[]) as? NSDictionary {
                             print("response: \(responseDictionary)")
                             
-                            self.movies = responseDictionary["results"] as! [NSDictionary]
+                            self.movies = responseDictionary["results"] as? [NSDictionary]
                             self.tableView.reloadData()
                     }
                 }

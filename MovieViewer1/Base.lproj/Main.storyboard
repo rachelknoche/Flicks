@@ -118,12 +118,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UoX-lV-iZh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="968" y="316"/>
+            <point key="canvasLocation" x="964" y="316"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="UZB-ky-8rn">
             <objects>
-                <navigationController storyboardIdentifier=" MoviesNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="bRP-X0-Dda" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MoviesNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="bRP-X0-Dda" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fgC-z3-ZGe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -136,7 +136,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JVc-YZ-IM3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="56" y="316"/>
+            <point key="canvasLocation" x="216" y="316"/>
         </scene>
     </scenes>
 </document>

@@ -136,7 +136,6 @@
         <!--Title-->
         <scene sceneID="6cD-mR-Ibj">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="D8r-yh-0of" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="FTZ-6Z-4e5" customClass="InfoViewController" customModule="MovieViewer1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BXL-vY-tnV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -170,6 +169,7 @@
                         <outlet property="titleLabel" destination="d6G-OB-z6m" id="7oP-Ad-KVt"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D8r-yh-0of" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1342" y="316"/>
         </scene>

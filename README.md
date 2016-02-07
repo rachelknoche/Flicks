@@ -1,8 +1,8 @@
-# Project 2 - *Name of App Here*
+# Project 2 - *Flicks*
 
-**Name of your app** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**Flicks** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **12** hours spent in total
 
 ## User Stories
 
@@ -23,7 +23,7 @@ The following **additional** features are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. How to push to a new view controller from something other than a tab bar
+1. Source control techniques
 2. Search Bars
 
 ## Video Walkthrough 
@@ -36,7 +36,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I just struggled with finding the time to add some optionals. I need to work faster on the required parts so I can get to the optionals. I also still need to figure out source control.
 
 ## License
 
